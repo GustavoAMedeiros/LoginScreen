@@ -1,0 +1,104 @@
+.{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    background-color: rgb(120, 240, 172);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 125px;
+    background-image: url(cesar-couto-TIvFLeqZ4ec-unsplash.jpg);
+}
+
+.card{
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 35px;
+    background:#077773;
+    border-radius: 20px;
+    box-shadow: 8px 10px 20px #065e5e;
+}
+
+.login-titulo{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.usuario{
+    margin-bottom: 5%;
+    width: 50%;
+    height: 5dvh;
+    border-radius: 8px; 
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.senha{
+    width: 50%;
+    height: 5dvh;
+    border-radius: 8px; 
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.remember{
+    margin: 10px;
+    font-size: small;
+    font-weight: 400;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.esqueci> a{
+    cursor: pointer;
+    padding: -8px;
+    margin-top: -20px;
+    margin-bottom: 5px;
+    font-size: small;
+    font-weight: 180;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.botao{
+    color: white;
+    background: seagreen;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-top: 12px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    width: 12vw;
+    height: 6vh;
+    cursor: pointer;
+    box-shadow: 4px 5px 4px 0px #023b3a;
+}
+
+
+
+.botao:hover{
+    color: bisque;
+    background: #023b3a;
+    transition: 0.8;
+}
+
+.texto-final{
+    color: white;
+    margin-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: ;
+}
+
+.texto-final>u{
+    cursor: pointer;
+}
